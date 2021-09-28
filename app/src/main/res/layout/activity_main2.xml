@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/photo"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/txv"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text="Question"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/op1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Option One "
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="90dp"
+        android:textSize="30sp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/my_own_option"/>
+    <TextView
+        android:id="@+id/op2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Option Two "
+
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="30dp"
+        android:textSize="30sp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/my_own_option"/>
+    <TextView
+        android:id="@+id/op3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Option Three "
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="30dp"
+        android:textSize="30sp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/my_own_option"/>
+    <TextView
+        android:id="@+id/op4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Option Four "
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="30dp"
+        android:textSize="30sp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/my_own_option"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text = "submit"
+        android:textSize="30sp"
+        android:background="@drawable/my_own_button2"/>
+
+</LinearLayout>
